@@ -46,6 +46,9 @@
                 "com.intellij.modules.cidr.ide"
             ]
         },
+        "com.intellij.ml.llm": {
+            "category": "UI"
+        },
         "com.markskelton.one-dark-theme": {
             "dependencies": [
                 "com.intellij.modules.platform"
