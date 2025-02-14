@@ -1,0 +1,63 @@
+{
+    "plugins": {
+        "Dart": {
+            "dependencies": [
+                "com.intellij.modules.xml"
+            ]
+        },
+        "com.intellij.c.performanceTesting": {
+            "enabled": false,
+            "category": "UI",
+            "dependencies": [
+                "com.jetbrains.performancePlugin",
+                "com.intellij.cidr.lang",
+                "com.intellij.modules.cidr.ide"
+            ]
+        },
+        "com.intellij.cidr.grazie": {
+            "enabled": false,
+            "category": "UI",
+            "dependencies": [
+                "com.intellij.cidr.lang",
+                "com.intellij.modules.cidr.ide"
+            ]
+        },
+        "com.intellij.cidr.lang": {
+            "enabled": false,
+            "dependencies": [
+                "com.intellij.cidr.base",
+                "com.intellij.modules.cidr.ide"
+            ]
+        },
+        "com.intellij.cidr.lang.clangdBridge": {
+            "enabled": false,
+            "dependencies": [
+                "com.intellij.cidr.lang",
+                "com.intellij.cidr.lang.clangd",
+                "com.intellij.modules.cidr.ide"
+            ]
+        },
+        "com.intellij.cidr.markdown": {
+            "enabled": false,
+            "category": "UI",
+            "dependencies": [
+                "com.intellij.modules.cidr.lang",
+                "org.intellij.plugins.markdown",
+                "com.intellij.modules.cidr.ide"
+            ]
+        },
+        "com.markskelton.one-dark-theme": {
+            "dependencies": [
+                "com.intellij.modules.platform"
+            ]
+        },
+        "org.jetbrains.plugins.cidr-intelliLang": {
+            "enabled": false,
+            "dependencies": [
+                "com.intellij.modules.cidr.lang",
+                "org.intellij.intelliLang",
+                "com.intellij.modules.cidr.ide"
+            ]
+        }
+    }
+}
