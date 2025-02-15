@@ -10,6 +10,7 @@
     <entry key="cache.folding.model.on.disk" value="false" />
     <entry key="clang.parameter.info" value="true" />
     <entry key="i18n.locale" value="" />
+    <entry key="editor.distraction.free.mode" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
